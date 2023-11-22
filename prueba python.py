@@ -1,4 +1,4 @@
-
+i
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -29,19 +29,19 @@ gato5 = gato(0,"atun","siames",8, "liso");
 
 """ valores y ejecuciones de SQL """
 
-gato1_SQL = "INSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%s,%s)"
+gato1_SQL = "INSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%i,%s)"
 gato1_val =(gato1.nombre_gato, gato1.color_gato, gato1.edad_gato,gato1.pelaje_gato)
 
-gato2_SQL = "INSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%s,%s)"
+gato2_SQL = "INSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%i,%s)"
 gato2_val =(gato2.nombre_gato, gato2.color_gato, gato2.edad_gato,gato2.pelaje_gato)
 
-gato3_SQL = "INSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%s,%s)"
+gato3_SQL = "INSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%i,%s)"
 gato3_val =(gato3.nombre_gato, gato3.color_gato, gato3.edad_gato,gato3.pelaje_gato)
 
-gato4_SQL = "INSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%s,%s)"
+gato4_SQL = "INSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%i,%s)"
 gato4_val =(gato4.nombre_gato, gato4.color_gato, gato4.edad_gato,gato4.pelaje_gato)
  
-gato5_SQL = "IINSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%s,%s)"
+gato5_SQL = "IINSERT into gatos(nombre_gato, color_gato, edad_gato,pelaje_gato) VALUES (%s,%s,%i,%s)"
 gato5_val =(gato5.nombre_gato, gato5.color_gato, gato5.edad_gato,gato5.pelaje_gato)
 
 
